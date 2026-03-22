@@ -26,7 +26,7 @@ export default async function handler(req, res) {
 
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
-    return res.status(500).json({ error: 'API key not configured. Add GEMINI_API_KEY to your Vercel environment variables.' });
+    return res.status(500).json({ error: 'API key not configured.' });
   }
 
   const prompt = `You are an expert study assistant. Given the notes below, produce two things:

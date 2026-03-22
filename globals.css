@@ -8,7 +8,6 @@
   --bg2: #12121E;
   --bg3: #1A1A2A;
   --bd: rgba(255, 255, 255, 0.07);
-  --bd2: rgba(255, 255, 255, 0.12);
   --t1: #EEEEF8;
   --t2: rgba(238, 238, 248, 0.6);
   --t3: rgba(238, 238, 248, 0.35);
@@ -26,7 +25,6 @@ html, body {
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg2); }
 ::-webkit-scrollbar-thumb { background: var(--bg3); border-radius: 3px; }
-
 textarea:focus { border-color: var(--lime-border) !important; outline: none; }
 
 @keyframes spin {
